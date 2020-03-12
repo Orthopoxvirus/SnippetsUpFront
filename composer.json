@@ -1,0 +1,39 @@
+{
+    "name": "exprimo/snippets-up-front",
+    "description": "A simple plugin to use text snippets everywhere (well in product descriptions for now). Manage your text snippets in the Shopware administration.",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "exprimo, M. Hächler",
+						"role": "Manufacturer"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.1.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "SnippetsUpFront\\SnippetsUpFront",
+        "label": {
+            "de-DE": "Textbausteine Überall",
+            "en-GB": "Text Snippets Everywhere"
+        },
+        "description": {
+            "de-DE": "Beschreibung für das Plugin PluginQuickStart TODO",
+            "en-GB": "Description for the plugin PluginQuickStart TODO"
+        },
+				"manufacturerLink": {
+					"de-DE": "https://shop.exprimo.ch",
+					"en-GB": "https://shop.exprimo.ch"
+				},
+				"supportLink": {
+					"de-DE": "https://github.com/Orthopoxvirus/SnippetsUpFront",
+					"en-GB": "https://github.com/Orthopoxvirus/SnippetsUpFront"
+				}
+    },
+    "autoload": {
+        "psr-4": {
+            "SnippetsUpFront\\": "src/"
+        }
+    }
+}

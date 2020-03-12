@@ -1,0 +1,7 @@
+{% sw_extends '@Storefront/storefront/page/product-detail/description.html.twig' %}
+{% block page_product_detail_description_content_text %}
+	<div class="product-detail-description-text my-test-class" itemprop="description">
+		{{ include(template_from_string(page.product.translated.description)) }}
+	</div>
+{% endblock %}
+
