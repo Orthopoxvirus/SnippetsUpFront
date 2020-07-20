@@ -1,6 +1,6 @@
 {
 	"name": "exprimo/snippets-up-front",
-	"description": "A simple plugin to use text snippets everywhere (well in product descriptions for now). Manage your text snippets in the Shopware administration.",
+	"description": "A simple plugin to use text snippets everywhere (well in product and meta descriptions for now). Manage your text snippets in the Shopware administration.",
 	"type": "shopware-platform-plugin",
 	"license": "MIT",
 	"authors": [

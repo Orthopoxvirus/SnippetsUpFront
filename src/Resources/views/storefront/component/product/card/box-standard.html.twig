@@ -1,0 +1,6 @@
+{% sw_extends '@Storefront/storefront/component/product/card/box-standard.html.twig' %}
+{% block component_product_box_description %}
+	<div class="product-description">
+		{{ include(template_from_string(product.translated.description))|striptags|raw }}
+	</div>
+{% endblock %}
